@@ -17,7 +17,7 @@ export default function Header() {
     <header className="sticky top-0 z-30 border-b border-brand-100 bg-white/85 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
         <a href="#" className="flex items-center gap-2 font-extrabold text-brand-500">
-          <span className="grid size-8 place-items-center rounded-lg bg-brand-500 text-white">◔</span>
+          <img src="/favicon.svg" alt="" className="size-8 rounded-lg" />
           OdyDent
         </a>
         <nav className="hidden gap-7 text-sm font-medium md:flex">

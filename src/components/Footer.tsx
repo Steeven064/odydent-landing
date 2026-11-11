@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className="border-t border-brand-100 bg-slate-50 px-6 pb-8 pt-14 text-sm">
       <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
-          <div className="flex items-center gap-2 font-extrabold text-brand-500"><span className="grid size-8 place-items-center rounded-lg bg-brand-500 text-white">◔</span>OdyDent</div>
+          <div className="flex items-center gap-2 font-extrabold text-brand-500"><img src="/favicon.svg" alt="" className="size-8 rounded-lg" />OdyDent</div>
           <p className="mt-3 max-w-xs text-slate-500">Ecosistema integral cloud para clínicas y especialistas dentales. Automatización clínica, odontograma interactivo.</p>
         </div>
         {cols.map(([t, items]) => (
