@@ -3,9 +3,9 @@ import Reveal from "./Reveal";
 
 const stats = [["-45%", "Ausentismo a Citas", "Con confirmación automatizada"], ["+3.5 h", "Ahorro Diario por Doctor", "Menos papeleo administrativo"], ["3×", "Aprobación de Presupuestos", "Explicación visual al paciente"], ["99.9%", "Disponibilidad en la Nube", "Acceso desde cualquier dispositivo"]];
 const quotes = [
-  ["Antes pasábamos dos horas cada noche cerrando caja y calculando los porcentajes de los 4 ortodoncistas. Con OdyDent, las comisiones se calculan solas al recibir el pago.", "Dra. Valeria Montero", "Directora Clínica • DentalStudio Bogotá"],
-  ["El odontograma en la tablet cambió la forma de vender. Le mostramos al paciente la pieza en rojo y la urgencia es inmediata. La aceptación de tratamientos subió un 40% en 3 meses.", "Dr. Sebastián Morales", "Implantólogo • Centro Odontológico Santiago"],
-  ["Manejar tres sucursales era un dolor de cabeza. OdyDent unificó los historiales para que los pacientes se atiendan en cualquier sede con su radiografía y saldo al día.", "Dra. Mariana Delgado", "Socia Fundadora • Red Dental CDMX"],
+  ["Antes dedicábamos demasiado tiempo a organizar las citas, revisar historias clínicas y llevar el control de los pacientes. Con OdyDent, ahora gestionamos todo desde un solo lugar, ahorramos tiempo y brindamos una atención mucho más rápida y organizada.", "Dra. Valeria Montero", "Directora Clínica • DentalStudio Cuenca"],
+  ["El odontograma en la tablet cambió la forma de vender. Le mostramos al paciente la pieza en rojo y la urgencia es inmediata. La aceptación de tratamientos subió un 40% en 3 meses.", "Dr. Sebastián Morales", "Odontòlogo general • Centro Odontológico Santiago"],
+  ["Manejar mi consultorio era un dolor de cabeza. OdyDent unificó los historiales para que los pacientes se atiendan con su Hisotira clìnica y saldo al día.", "Dra. Hillary Ulloa", "Socia Fundadora • Hillary Ulloa Odontologìa Imbabura"],
 ];
 
 export default function Proof() {

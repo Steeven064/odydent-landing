@@ -5,14 +5,14 @@ import Reveal from "./Reveal";
 const bad = [
   ["Hasta 40% de Ausentismo (No-shows)", "Llamar a mano a cada paciente consume horas de la recepcionista y muchos olvidan asistir sin un recordatorio interactivo."],
   ["Fichas Clínicas Extraviadas o Ilegibles", "Carpetas físicas vulnerables a pérdidas, sin trazabilidad fotográfica de radiografías y cero respaldo legal en la nube."],
-  ["Cálculo Manual de Comisiones y Honorarios", "Fin de mes caótico calculando porcentajes por doctor en hojas de cálculo desactualizadas."],
+  ["Cálculo Manual de Contabilidad", "Control ineficiente de ingresos y gastos por doctor en hojas de cálculo desactualizadas de tu consultorio."],
   ["Fuga Silenciosa de Cobros y Tratamientos", "Pacientes que abandonan planes a medio terminar sin seguimiento automático de pagos pendientes."],
 ];
 const good = [
-  ["Recordatorios Inteligentes", "Confirmación automática bidireccional sincronizada directamente con la agenda multi-sillón en tiempo real."],
-  ["Historial Digital Unificado & Odontograma interactivo", "Evoluciones clínicas en 3 clics, almacenamiento ilimitado de radiografías e historiales 100% seguros."],
-  ["Liquidación Automática de Especialistas", "Configura reglas de porcentaje por tratamiento, deducibles de laboratorio y genera el estado de cuenta al instante."],
-  ["Cierre de Caja Diario & Presupuestos Atractivos", "Aumenta un 30% la aceptación de tratamientos entregando presupuestos visuales con firma táctil."],
+  ["Recordatorios Inteligentes", "Automatiza el envío de recordatorios de citas directamente al WhatsApp de tus pacientes."],
+  ["Fichas clìnicas digitales & Odontograma interactivo", "Registra diagnósticos, tratamientos y evolución clínica mediante fichas digitales y un odontograma interactivo de forma rápida y organizada."],
+  ["Contabilidad avanzada de ingresos", "Lleva el control de los ingresos de tu consultorio odontológico de forma precisa y organizada. Registra pagos, consulta movimientos financieros y genera reportes detallados."],
+  ["Comprobantes automáticos de pacientes", "Lleva un mejor control de los tratamientos de tus pacientes y genera su comprobante de pago al instante."],
 ];
 
 function List({ items, ok }: { items: string[][]; ok?: boolean }) {

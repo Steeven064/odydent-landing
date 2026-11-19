@@ -3,10 +3,10 @@ import { CalendarDays, FileText, Smile, Wallet, type LucideIcon } from "lucide-r
 import Reveal from "./Reveal";
 
 const modules: { icon: LucideIcon; title: string; text: string; tag: string }[] = [
-  { icon: CalendarDays, title: "Agenda & Citas Multi-sillón", text: "Visualiza simultáneamente tus sillones clínicos y la disponibilidad de cada doctor. Lista de espera dinámica que rellena huecos automáticamente.", tag: "Integración WhatsApp" },
-  { icon: Smile, title: "Odontograma & Ficha Digital", text: "Odontograma interactivo para adultos y niños. Consentimiento informado con firma táctil y recetas médicas con código QR.", tag: "Adulto & Pediátrico" },
+  { icon: CalendarDays, title: "Agenda & Gestiona tus Citas", text: "Optimiza tu tiempo, evita conflictos de horarios y mantén el control de tu agenda en un solo lugar, brindando una atención más eficiente y una mejor experiencia a tus pacientes.", tag: "Màs eficiencia" },
+  { icon: Smile, title: "Odontograma & Ficha Digital", text: "Con un registro detallado de diagnósticos, tratamientos y evolución clínica brinda una atención más eficiente y personalizada.", tag: "Adulto & Pediátrico"  },
   { icon: FileText, title: "Presupuestos Inteligentes", text: "Presupuestos visuales por fases de tratamiento. Envío directo al WhatsApp del paciente en PDF y registro de aceptaciones.", tag: "+35% Aceptación" },
-  { icon: Wallet, title: "Caja, Abonos & Comisiones", text: "Pagos fraccionados, cuadre de caja diario por sucursal y liquidación automática de honorarios por doctor.", tag: "Auditoría en Vivo" },
+  { icon: Wallet, title: "Caja, Abonos & Comisiones", text: "Pagos fraccionados, cuadre de caja diario y un mejor control de ingresos y gastos en tu consultorio.", tag: "Dashboard & Resumen" },
 ];
 
 export default function Modules() {
@@ -16,7 +16,7 @@ export default function Modules() {
         <Reveal className="flex flex-wrap items-end justify-between gap-6">
           <div>
             <span className="text-xs font-bold uppercase tracking-widest text-brand-500">Módulos especializados</span>
-            <h2 className="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl">Herramientas creadas por y para dentistas</h2>
+            <h2 className="mt-2 text-3xl font-extrabold tracking-tight md:text-4xl">Herramientas creadas para dentistas</h2>
           </div>
           <p className="max-w-sm text-sm text-slate-500">Cada módulo resuelve un cuello de botella crítico en la atención clínica y la administración del consultorio dental.</p>
         </Reveal>
